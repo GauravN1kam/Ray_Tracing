@@ -9,5 +9,7 @@ set ( CMAKE_CXX_EXTENSIONS        OFF )
 
 add_executable(
 	RTWeekend
+	src/RTWeekend/Vector.hpp
+	src/RTWeekend/Color.hpp
 	src/RTWeekend/main.cpp
 )
