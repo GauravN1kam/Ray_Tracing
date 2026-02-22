@@ -11,5 +11,6 @@ add_executable(
 	RTWeekend
 	src/RTWeekend/Vector.hpp
 	src/RTWeekend/Color.hpp
+	src/RTWeekend/Ray.hpp
 	src/RTWeekend/main.cpp
 )
