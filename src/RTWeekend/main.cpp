@@ -1,6 +1,4 @@
-#include "Color.hpp"
-#include "Ray.hpp"
-#include "Vector.hpp"
+#include "RTWeekend.hpp"
 #include <iostream>
 
 double hit_sphere(const point3 &center, double radius, const ray &r) {
