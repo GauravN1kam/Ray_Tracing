@@ -1,5 +1,4 @@
 #include "RTWeekend.hpp"
-#include <iostream>
 
 double hit_sphere(const point3 &center, double radius, const ray &r) {
   vec3 oc = center - r.origin();
