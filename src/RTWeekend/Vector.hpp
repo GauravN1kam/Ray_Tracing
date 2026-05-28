@@ -4,6 +4,7 @@
 class vec3 {
 public:
   double e[3];
+
   // Default constructor
   vec3() : e{0, 0, 0} {}
 
