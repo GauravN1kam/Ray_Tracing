@@ -33,7 +33,7 @@ public:
 
     return true;
   }
-
+  // private feild
 private:
   point3 center;
   double radius;

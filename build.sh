@@ -8,3 +8,4 @@ if [[ -n "$KITTY_PID" ]]; then
 elif [[ -n "$WEZTERM_PANE" ]]; then
 	wezterm imgcat --width 80 --height 80 img.ppm
 fi
+
