@@ -7,7 +7,6 @@ double hit_sphere(const point3 &center, double radius, const ray &r) {
   auto c = oc.length_squared() - radius * radius;
   auto discriminant = h * h - a * c;
 
-  // sdfas
   if (discriminant < 0) {
     return -1.0;
   } else {
